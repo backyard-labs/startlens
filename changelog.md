@@ -21,6 +21,14 @@
   - Missing-input behavior
   - Messy/promotional/rumor evidence
 - Regression result: 8/8 tests passed with no observed loss of Core analytical functionality
+- QA / regression validation:
+  - Added two fixed synthetic regression fixtures:
+    - `qa/regression-material-change.md`
+    - `qa/regression-weak-evidence.md`
+  - Expanded the QA harness to 10 regression scenarios covering Scenarios A-J
+  - Added regression coverage for opaque enterprise pricing and directional product claims without detail
+  - Completed the full StartLens v1.1.1 regression suite with 10 / 10 tests passed
+  - No regression failures were identified
 - Beta observations retained for further testing:
   - Conversation Starters may not be visible across all tested ChatGPT interfaces
   - High confidence in an evidence-insufficiency judgment may require clearer semantics to avoid being mistaken for high confidence in the underlying market state
