@@ -390,7 +390,7 @@ A failed invariant blocks release until corrected and retested.
 
 Core-boundary and functional regression result:
 
-**8 / 8 tests passed**
+**10 / 10 tests passed**
 
 Validated areas:
 
@@ -402,6 +402,8 @@ Validated areas:
 * normal Operator workflow
 * missing-input handling
 * weak/promotional/rumor evidence handling
+* opaque enterprise pricing handling
+* directional product claims without detail
 
 Open beta observations remain separate from regression failures unless repeated testing establishes a systemic defect.
 
